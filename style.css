@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.same-bg {
+  background-image: url(https://mark-mad.github.io/parallax-website/assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.7;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  border-top: 8px solid #2c002c;
+  border-left: 8px solid #2c002c;
+  border-bottom: 8px solid #800080;
+  border-right: 8px solid #800080;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: "Lato", sans-serif;
+  padding: 4px;
+}
+.first {
+  padding: 15px;
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+.headings {
+  border: 1px solid #4d4d4d;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #000;
+  color: #fff;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+  padding: 5px;
+}
+header .container h1 {
+  width: 450px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.info {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2.8rem;
+  line-height: 1.8rem;
+  font-family: "Lato", sans-serif;
+}
+.fsd {
+  /* border: 3px solid #f00; */
+  background-color: #f1f1f1;
+  min-height: 340px;
+  max-height: 40vh;
+  color: #666666;
+}
+.title {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.text {
+  font-size: 1rem;
+}
+.logo {
+  background-image: url(https://mark-mad.github.io/parallax-website/assets/bg2.jpg);
+}
+.background {
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aws {
+  /* border: 3px solid #f00; */
+  min-height: 300px;
+  max-height: 40vh;
+  background-color: #282e34;
+  color: #dddddd;
+}
+.wtry {
+  background-image: url(https://mark-mad.github.io/parallax-website/assets/bg3.jpg);
+}
+.daml {
+  /* border: 3px solid #f00; */
+  min-height: 320px;
+  max-height: 40vh;
+  background-color: #f1f1f1;
+  color: #666666;
+}
+.cla-team {
+  background-image: url(https://mark-mad.github.io/parallax-website/assets/bg4.jpg);
+}
+.wc {
+  /* border: 3px solid #f00; */
+  min-height: 350px;
+  max-height: 40vh;
+  background-color: #282e34;
+  color: #dddddd;
+}
