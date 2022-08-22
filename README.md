@@ -10,5 +10,5 @@ coding project 20.08.22
 - Here is the original source for this website:
   https://mark-mad.github.io/parallax-website/
 
-- Link to my project is down below:
+- Link to my project:
   https://atercan.github.io/parallax-website/
