@@ -27,7 +27,8 @@
   font-family: "Lato", sans-serif;
   padding: 4px;
 }
-.first {
+.first,
+.fourth {
   padding: 15px;
   border-top-left-radius: 45px;
   border-bottom-right-radius: 45px;
@@ -43,7 +44,8 @@
   font-weight: 400;
   padding: 5px;
 }
-header .container h1 {
+header .container h1,
+.same-bg .fourth .headings {
   width: 450px;
   height: 120px;
   display: flex;
@@ -80,6 +82,9 @@ header .container h1 {
 .logo {
   background-image: url(https://mark-mad.github.io/parallax-website/assets/bg2.jpg);
 }
+.cl-logo {
+  width: 30%;
+}
 .background {
   width: 100%;
   height: 80vh;
@@ -91,6 +96,7 @@ header .container h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  opacity: 0.7;
 }
 .aws {
   /* border: 3px solid #f00; */
@@ -118,4 +124,13 @@ header .container h1 {
   max-height: 40vh;
   background-color: #282e34;
   color: #dddddd;
+}
+.bold {
+  font-weight: bolder;
+}
+.same-bg .fourth .headings {
+  width: 760px;
+}
+.same-bg {
+  height: 100vh;
 }
